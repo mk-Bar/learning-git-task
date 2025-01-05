@@ -27,7 +27,7 @@ for shop,products in shoppingList.items():
     products=[product.capitalize() for product in products]
     print(f"Idę do {shop} i kupuję tam {products}")
 
-# productsSum=0
-# for product in shoppingList.values():
-#     productsSum=productsSum+len(product)
-# print(f"W sumie kupuję {productsSum} produktów")
+productsSum=0
+for product in shoppingList.values():
+    productsSum=productsSum+len(product)
+print(f"W sumie kupuję {productsSum} produktów")
