@@ -33,3 +33,4 @@ for product in shoppingList.values():
 print(f"W sumie kupuję {productsSum} produktów")
 
 # test nowego commita 1
+print("test commita nr 2")
