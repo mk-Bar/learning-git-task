@@ -17,13 +17,17 @@
 # Idę do Warzywniak, kupuję tu następujące rzeczy: ['Marchew', 'Seler', 'Rukola'].
 # W sumie kupuję 6 produktów.
 
-listaZakupow={"piekarnia":["chleb", "pączek", "bułki"], 
+shoppingList={"piekarnia":["chleb", "pączek", "bułki"], 
               "warzywniak": ["marchew", "seler", "rukola"]}
 
 
-for sklep,rzeczy in listaZakupow.items():
+for shop,products in shoppingList.items():
     
-    sklep=sklep.capitalize()
-    rzeczy=[produkt.capitalize() for produkt in rzeczy]
-    print(f"Idę do {sklep} i kupuję tam {rzeczy}")
-    
+    shop=shop.capitalize()
+    products=[product.capitalize() for product in products]
+    print(f"Idę do {shop} i kupuję tam {products}")
+
+# productsSum=0
+# for product in shoppingList.values():
+#     productsSum=productsSum+len(product)
+# print(f"W sumie kupuję {productsSum} produktów")
